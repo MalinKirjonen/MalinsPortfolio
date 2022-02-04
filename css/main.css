@@ -1,0 +1,30 @@
+/** font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+.index-hero {
+  padding: 160px 80px;
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  text-align: center;
+}
+
+.index-hero h1 {
+  font-family: "Playfair Display", serif;
+}
+.index-hero h2 {
+  font-family: "Poppins", sans-serif;
+}
