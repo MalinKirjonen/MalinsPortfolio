@@ -3,7 +3,7 @@ font-family: 'Poppins', sans-serif; */
 
 :root {
   --branding-color: #fce3e2;
-  --branding-text-color: #c94b68;
+  --branding-text-color: #785d6a;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --primary-text-color: #110002;
@@ -62,7 +62,7 @@ p {
   padding: 15px 30px;
 }
 .btn-portfolio {
-  background-color: #2e6072;
+  background-color: #785d6a;
   color: #f2f2f2;
   border-radius: 4px;
   font-size: 18px;
