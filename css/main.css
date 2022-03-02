@@ -4,6 +4,8 @@ font-family: 'Poppins', sans-serif; */
 :root {
   --branding-color: #fce3e2;
   --branding-text-color: #785d6a;
+  --project-btn-color: #785d6a;
+  --project-btn-text-color: #f2f2f2;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --primary-text-color: #110002;
@@ -17,9 +19,14 @@ h1,
 h2 {
   font-family: var(--heading-font-family);
 }
+h2 {
+  font-size: 62px;
+}
 
 p {
   font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .index-hero {
@@ -56,16 +63,36 @@ p {
 .btn-branding {
   background-color: var(--branding-color);
   color: var(--branding-text-color);
+  border: 1px solid var(--project-btn-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 .btn-portfolio {
-  background-color: #785d6a;
-  color: #f2f2f2;
+  background-color: var(--project-btn-color);
+  color: var(--project-btn-text-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.bg-white {
+  background-color: #997f88 !important;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .btn-portfolio {
+    margin-bottom: 30px;
+  }
 }
