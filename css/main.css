@@ -133,6 +133,9 @@ footer {
     margin: 0px;
   }
 
+  .index-hero p {
+    font-size: 24px;
+  }
   .project-description {
     padding: 0px;
     text-align: center;
