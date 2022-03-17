@@ -99,6 +99,13 @@ footer {
   margin: 30px;
 }
 
+.portfolio-header h2 {
+  font-size: 24px;
+}
+
+.portfolio-header {
+  margin: 30px;
+}
 .btn-branding {
   background-color: var(--branding-color);
   color: var(--branding-text-color);
