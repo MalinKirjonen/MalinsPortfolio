@@ -141,6 +141,8 @@ a:hover {
 
 .about-section-content {
   margin: 30px;
+}
+.about-section-content h1 {
   font-size: 64px;
 }
 
@@ -226,6 +228,9 @@ a:hover {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+  .about-section-content h1 {
+    font-size: 68px;
   }
 
   .headshot {
