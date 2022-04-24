@@ -31,10 +31,6 @@ p {
 }
 
 footer {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-
   background-image: linear-gradient(
     to right,
     #ff8177 0%,
